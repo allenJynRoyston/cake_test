@@ -9,14 +9,18 @@ $ git clone https://github.com/allenRoyston/cake_test.git
 $ cd cake_test
 $ npm install
 ```
+
 ### Development build (hotreload enabled)
+```sh
 $ npm run dev
+```
 
 ### Webpack bundle and server deployment:
 ```sh
 $ gulp build
 $ gulp
 ```
+
 ### Things I noticed:
 - GET and DELETE for the API work as intended; PUT kicks back a 501 (server error).  The POST returns a 200 and appears to work, but does not actually create a new entry.  I suspect this has something to do with the databases permissions and nothing to do with my end of the code. My API calls can be found in src/components/elements/cakeTable.vue
 
