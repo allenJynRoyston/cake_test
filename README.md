@@ -2,17 +2,11 @@
 
 ### Install instructions:
 ```sh
-$ git clone https://github.com/allenRoyston/vue-es6-webpack-express-clean.git
-$ cd vue-es6-webpack-express-clean
+$ git clone https://github.com/allenRoyston/cake_test.git
+$ cd cake_test
 $ npm install
-$ gulp build
-$ gulp  
-OR
 $ npm run dev
 ```
-
-### When to use gulp vs npm run dev
-Webpack won't instantiate the Express server, so any endpoints you need to access will be returned as a 404.  If you can don't need access to endpoints, I'd recommened npm run dev since it's much faster.  
 
 ### Deployment instructions:
 ```sh
