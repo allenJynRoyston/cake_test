@@ -22,6 +22,8 @@ $ gulp
 ```
 
 ### Things I noticed:
-- GET and DELETE for the API work as intended; PUT kicks back a 501 (server error).  The POST returns a 200 and appears to work, but does not actually create a new entry.  I suspect this has something to do with the databases permissions and nothing to do with my end of the code. My API calls can be found in src/components/elements/cakeTable.vue
+- GET and DELETE for the API work as intended; PUT kicks back a 501 (server error); POST returns a 200 and appears to work, but does not actually create a new entry.  I suspect this has something to do with the databases permissions and nothing to do with my end of the code.  I was able to duplicate the issues on a RESTful client tester via a Chrome extension.  
+
+- My API calls can be found in src/components/elements/cakeTable.vue
 
 - Also, I tried to host this project on my Heroku servers, but they're HTTPS and as such do not work with the HTTP endpoints that are provided.  
