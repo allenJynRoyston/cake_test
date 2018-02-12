@@ -1,0 +1,35 @@
+@import './normalize.css';
+@import './skeleton.css';
+
+.center-text{
+  text-align: center
+}
+
+.is-cursor{
+  cursor: pointer;
+}
+
+.is-bold{
+  font-weight: bold;
+  color: orange;
+  font-size: 1.25em;
+}
+
+.outline{
+  border: 2px solid red ;
+}
+
+
+a{
+  cursor: pointer
+}
+.button-secondary{
+  border-color: none;
+  background-color: #96281B;
+  color: white;
+}
+.button-edit{
+  border-color: none;
+  background-color: green;
+  color: white;
+}
