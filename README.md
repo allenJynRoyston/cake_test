@@ -10,7 +10,7 @@ $ cd cake_test
 $ npm install
 ```
 
-### Development build (hotreload enabled)
+### Development build
 ```sh
 $ npm run dev
 ```
