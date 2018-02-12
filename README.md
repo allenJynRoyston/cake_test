@@ -1,5 +1,9 @@
 # Vue + ES6 / Webpack / Express4
 
+### Preview
+
+
+
 ### Install instructions:
 ```sh
 $ git clone https://github.com/allenRoyston/cake_test.git
@@ -8,14 +12,8 @@ $ npm install
 $ npm run dev
 ```
 
-### Deployment instructions:
+### Webpack bundle and deployment:
 ```sh
 $ gulp build
-$ git push heroku master
-```
-
-### Deployment preview (what you see is what you'll get):
-```sh
-$ gulp build
-$ npm start
+$ gulp
 ```
